@@ -1,0 +1,175 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #32357c;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.testimonials {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cta-section {
+    background-color: #fff;
+    color: #007bff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta-section .cta {
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+footer {
+    background-color: #32357c;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav {
+        margin-top: 10px;
+    }
+    
+    .cta {
+        margin-top: 10px;
+    }
+    
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .hero-text {
+        padding-right: 0;
+    }
+    
+    .hero-image {
+        margin-top: 20px;
+    }
+    
+    footer nav {
+        flex-direction: column;
+    }
+    
+    footer nav a {
+        margin: 10px 0;
+    }
+}
